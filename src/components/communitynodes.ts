@@ -72,6 +72,44 @@ export const CommunityNodes: CommunityNodesType[]= [
 			}
 
 		]
+	},
+	{
+		id: "AA51A1A8",
+		short_name: "SN03",
+		name: "SyriNet Research", 
+		description: "This node services the local ANU community allowing Researchers and Students access to the greater Canberra Mesh from the ANU campus.  It exists to increase availability to the mesh as local access on campus is hit and miss without it, though due to all the buildings there are still quite a few black spots.  ",
+		approach_information: "There is no public access to this node, it's not servicable by anyone outside of the ANU and requires special access.",
+		gps_location: {
+			latitude: -35.27803,
+			longitude: 149.11406,
+		},
+		hardware_model: "RAK4631",
+		device_role: "Client",
+		maintainers: [
+			{
+				name: "Steve",
+				note: "Only contact if there are issues",
+				role: "Owner",
+				contact: [
+					{
+						type: "Email",
+						data: "steve@syridian.net"
+					}
+				]
+			},
+			{
+				name: "Canberra Meshtastic Community",
+				note: null,
+				role: "Community",
+				contact: [
+					{
+						type: "Discord",
+						data: "https://discord.gg/7H7dmc5tzb"
+					}
+				]
+			}
+
+		]
 	}
 
 ]
